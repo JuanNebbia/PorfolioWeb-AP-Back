@@ -7,7 +7,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class Educacion implements Serializable {
+public class Educacion{
     
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

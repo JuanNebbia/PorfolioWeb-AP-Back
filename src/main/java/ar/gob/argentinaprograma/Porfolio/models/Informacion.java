@@ -1,6 +1,6 @@
 package ar.gob.argentinaprograma.Porfolio.models;
 
-import java.io.Serializable;
+
 import java.util.List;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -11,7 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
 @Entity
-public class Informacion implements Serializable{
+public class Informacion{
     
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
