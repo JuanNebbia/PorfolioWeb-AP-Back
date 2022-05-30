@@ -1,1 +1,1 @@
-web: java -jar target/PorfolioApplication.java
+web: java -jar target/Porfolio-0.0.1-SNAPSHOT.jar
