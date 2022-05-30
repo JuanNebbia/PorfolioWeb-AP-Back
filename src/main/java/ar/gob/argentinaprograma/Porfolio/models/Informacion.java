@@ -14,6 +14,7 @@ import javax.persistence.OneToMany;
 public class Informacion implements Serializable{
     
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long idInformacion;
     
     private String nombre;
